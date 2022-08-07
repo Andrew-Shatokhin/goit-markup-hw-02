@@ -1,0 +1,37 @@
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Цвет логотипа WebStudio */
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3; 
+}
+
+/* Навигация в хедере */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
+}
+/* Контакты в хедере */
+.contact-mail, .contact-tel {
+    color: #757575;
+}
+
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-tel:hover,
+.contact-tel:focus {
+   color: #2196F3; 
+}
+
