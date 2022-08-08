@@ -1,37 +1,102 @@
+
+
+/* Змінні кольори */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+
+/* Стилі для index.html */
 body {
-    background-color: #FFFFFF;
-    color: #757575;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
 }
 
 ul {
     list-style: none;
 }
 
-/* Цвет логотипа WebStudio */
+/* Колір логотипу WebStudio */
 .logo {
     color: #000000;
 }
 .logo-web {
-    color: #2196F3; 
+    color: var(--accent-color); 
 }
 
-/* Навигация в хедере */
+/* Навігація в хедері */
 .site-nav .link {
     color: #212121;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-/* Контакты в хедере */
+
+.site-nav .link.current {
+     color: var(--accent-color);
+}
+
+/* Контакти в хедері */
 .contact-mail, .contact-tel {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-tel:hover,
 .contact-tel:focus {
-   color: #2196F3; 
+   color: var(--accent-color); 
 }
+
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+
+/* Секції */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Особливості */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Команда */
+.team {
+    color: var(--title-text-color);
+}
+
+/* Кнопка замовити послугу*/
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+/* Стилі для Portfolio.html */
+
+/* Кнопки портфоліо */
+.button-filter {
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
+}
+
+.button-filter:hover, 
+.button-filter:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
 
