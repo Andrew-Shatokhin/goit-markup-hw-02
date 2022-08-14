@@ -41,7 +41,8 @@ body {
 .contact,
 .feature-list,
 .labor-list,
-.team-list {
+.team-list,
+.address-list {
   list-style: none;
 }
 
@@ -219,11 +220,9 @@ body {
   color: var(--info-address-color);
 }
 
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus {
-  color: var(--accent-color);
+.address-list a:hover,
+.address-list a:focus {
+color: var(--accent-color);
 }
 
 /* Стилі для Portfolio.html */
